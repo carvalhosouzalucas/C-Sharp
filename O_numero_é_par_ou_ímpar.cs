@@ -12,16 +12,16 @@ namespace exercicio_par_ou_impar
         {
             int numero;
 
-            Console.WriteLine("Insira um número: ");
+            Console.WriteLine("Insira um nÃºmero: ");
             numero = Convert.ToInt32(Console.ReadLine());
 
             if (numero % 2 == 0)
             {
-                Console.WriteLine("O número é par.");
+                Console.WriteLine("O nÃºmero Ã© par.");
             }
             else
             {
-                Console.WriteLine("O número é ímpar.");
+                Console.WriteLine("O nÃºmero Ã© Ã­mpar.");
             }
         }
     }
